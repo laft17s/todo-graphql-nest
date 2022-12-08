@@ -1,0 +1,17 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """Hola mundo"""
+  hello: String!
+
+  """Saluda a Luis"""
+  hello2: String!
+
+  """Retorna un número aleatorio"""
+  randomNumber: Float!
+
+  """Retorna un número aleatorio desde cero hasta TO"""
+  randomNumberFromZeroTo(to: Int): Int!
+}
